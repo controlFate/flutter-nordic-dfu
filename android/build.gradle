@@ -23,10 +23,10 @@ apply plugin: 'com.android.library'
 
 android {
     namespace "com.timeyaa.flutter_nordic_dfu"
-    compileSdkVersion 31
+    compileSdkVersion 35
 
     defaultConfig {
-        minSdkVersion 18
+        minSdkVersion 24
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
